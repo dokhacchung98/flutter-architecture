@@ -1,16 +1,7 @@
-# flutter-architecture
+# vanilla
 
-## Architectures
+This is architecture you can see in official Flutter Documentation
 
- - Vanilla
- 
- - Scoped Model
-
- - BloC
-
- - MVVM
-
- - MVP
 
 ## Api
 
@@ -23,17 +14,12 @@
     https://next.json-generator.com/api/json/get/NkYEZcGPd
  ```
 
-## Getting Started
+ ## Library
 
-- Clone project
-```sh
-    git clone https://github.com/khacchungory/flutter-architecture.git
-```
-
-- Chosse folder 
-```sh
-    cd <name-folder>
-```
+``` sh
+    http: ^0.12.0+4
+ 
+ ```
 
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 >

@@ -2,6 +2,10 @@
 
 This is architecture you can see in official Flutter Documentation
 
+## Flow Chart
+<img src="./img/vanilla_flow">
+
+   - This is the way management state and maintain very difficult.
 
 ## Api
 

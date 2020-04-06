@@ -68,16 +68,12 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void updateUser(
+  void updateUser(User user,
       {String id, String firstName, String lastName, String avatar}) {
     setState(() {
-      _listUser.map((e) => (e.id == id)
-          ? User(
-              avatar: avatar ?? e.avatar,
-              firstName: firstName ?? e.firstName,
-              id: id ?? e.id,
-              lastName: lastName ?? e.lastName)
-          : e);
+      user.avatar = avatar ?? user.avatar;
+      user.firstName = firstName ?? user.firstName;
+      user.lastName = lastName ?? user.lastName;
     });
   }
 

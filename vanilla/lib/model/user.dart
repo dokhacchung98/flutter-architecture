@@ -1,22 +1,10 @@
 import 'package:flutter/foundation.dart';
 
 class User {
-  final String id;
-  final String firstName;
-  final String lastName;
-  final String avatar;
-  String _email;
-  String _phone;
-  String _about;
-  int _age;
-
-  String get email => _email;
-
-  String get phone => _phone;
-
-  String get about => _about;
-
-  int get age => _age;
+  String id;
+  String firstName;
+  String lastName;
+  String avatar;
 
   String getFullName() {
     return firstName + ' ' + lastName;
@@ -32,10 +20,6 @@ class User {
       lastName: json['name']['last'],
       avatar: json['picture'],
     );
-    u._email = json['email'];
-    u._phone = json['phone'];
-    u._about = json['about'];
-    u._age = json['age'];
     return u;
   }
 }

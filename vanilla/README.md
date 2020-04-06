@@ -3,7 +3,7 @@
 This is architecture you can see in official Flutter Documentation
 
 ## Flow Chart
-<img src="./img/vanilla_flow">
+<img src="./../img/vanilla_flow.png">
 
    - This is the way management state and maintain very difficult.
 
